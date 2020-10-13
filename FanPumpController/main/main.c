@@ -48,7 +48,6 @@ void main_task(void *parameter) {
 	TickType_t secstamp = xTaskGetTickCount();
 	while (1) {
 
-
 		uint8_t ch;
 		ch = fgetc(stdin);
 		if (ch!=0xFF)
